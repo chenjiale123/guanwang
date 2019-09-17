@@ -1,0 +1,1037 @@
+html {
+    overflow-x: auto;
+    overflow-y: scroll;
+}
+
+a {
+    text-decoration: none;
+}
+
+body,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+pre,
+form,
+fieldset,
+input,
+p,
+blockquote,
+th,
+td {
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h4,
+h5 {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #FFFFFF;
+    color: #666666;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    text-align: left;
+}
+
+select {
+    font-size: 12px;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+fieldset,
+img {
+    border: 0 none;
+}
+
+fieldset {
+    margin: 0;
+    padding: 0;
+}
+
+fieldset p {
+    margin: 0;
+    padding: 0 0 0 8px;
+}
+
+legend {
+    display: none;
+}
+
+address,
+caption,
+em,
+strong,
+th,
+i {
+    font-style: normal;
+    font-weight: 400;
+}
+
+table caption {
+    margin-left: -1px;
+}
+
+hr {
+    border-bottom: 1px solid #FFFFFF;
+    border-top: 1px solid #E4E4E4;
+    border-width: 1px 0;
+    clear: both;
+    height: 2px;
+    margin: 5px 0;
+    overflow: hidden;
+}
+
+ol,
+ul {
+    list-style-image: none;
+    list-style-position: outside;
+    list-style-type: none;
+}
+
+caption,
+th {
+    text-align: left;
+}
+
+q:before,
+q:after,
+blockquote:before,
+blockquote:after {
+    content: ””;
+}
+
+#contain {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    min-width: 1200px;
+    position: relative;
+}
+
+.header {
+    width: 100%;
+    height: 96px;
+    background: rgba(255, 255, 255, 1);
+    box-shadow: 0px 2px 8px 0px rgba(4, 0, 0, 0.06);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999999999999;
+}
+
+.logo {
+    width: 184px;
+    height: 56px;
+    float: left;
+    margin: 24px 0 0 100px;
+}
+
+.logo>img {
+    width: 184px;
+    height: 56px;
+}
+
+.right {
+    width: 760px;
+    height: 27px;
+    float: right;
+    margin-top: 27px;
+}
+
+.right>li {
+    margin-left: 50px;
+    float: left;
+}
+
+.right>li:hover {
+    border-bottom: 2px solid rgba(61, 178, 163, 1);
+    border-radius: 2px;
+}
+
+.right>li:nth-child(2) {
+    border-bottom: 2px solid rgba(61, 178, 163, 1);
+    border-radius: 2px;
+}
+
+.right>li:nth-child(2) a {
+    color: rgba(61, 178, 163, 1);
+}
+
+.right>li:nth-child(1) {
+    margin-left: 0;
+}
+
+.right>li>a {
+    display: inline-block;
+    text-align: center;
+    margin-top: 6px;
+    font-family: 微软雅黑;
+    font-weight: 400;
+    color: rgb(0, 0, 0);
+    margin-bottom: 12px;
+    font-size: 18px;
+}
+
+.banner {
+    width: 100%;
+    height: 530px;
+    background: url("../image/product/banner@2x.png") no-repeat, #fff;
+    background-size: 100% 100%;
+    margin-top: 99px;
+}
+
+.main {
+    width: 100%;
+    height: auto;
+}
+
+.main>.app {
+    width: 100%;
+    height: 828px;
+    background: url("../image/product/bjwenli@2x.png") no-repeat;
+    background-size: 100% 100%;
+}
+
+.main>.app>.App {
+    width: 1200px;
+    height: 828px;
+    margin: 0 auto;
+    position: relative;
+    padding-top: 80px;
+    box-sizing: border-box;
+}
+
+.main>.app>.App>h2 {
+    width: 304px;
+    height: 50px;
+    font-size: 36px;
+    font-family: 微软雅黑;
+    font-weight: bold;
+    color: rgba(26, 26, 26, 1);
+    margin: 10px auto 0 auto;
+    background: url("../image/product/xiahx11@2x\ \(1\).png") no-repeat -7px 146%;
+    background-size: contain;
+}
+
+.main>.app>.App>h1 {
+    position: absolute;
+    left: 22%;
+    top: 46px;
+    width: 670px;
+    height: 66px;
+    font-size: 84px;
+    font-family: 微软雅黑;
+    font-weight: bold;
+    color: rgba(245, 252, 252, 1);
+    z-index: -999;
+}
+
+.main>.weixin>h1 {
+    position: absolute;
+    left: 50%;
+    top: 34px;
+    margin-left: -335px;
+    height: 66px;
+    font-size: 84px;
+    font-family: 微软雅黑;
+    font-weight: bold;
+    color: #fff;
+}
+
+.main>.movie>h1 {
+    position: absolute;
+    left: 50%;
+    top: 34px;
+    margin-left: -335px;
+    height: 66px;
+    font-size: 84px;
+    font-family: 微软雅黑;
+    font-weight: bold;
+    color: #fff;
+}
+
+.main>.website>h1 {
+    position: absolute;
+    left: 50%;
+    top: 30px;
+    margin-left: -335px;
+    width: 670px;
+    height: 66px;
+    font-size: 84px;
+    font-family: 微软雅黑;
+    font-weight: bold;
+    color: #f5fcfc;
+    z-index: -99;
+}
+
+.main>.about>h1 {
+    position: absolute;
+    left: 50%;
+    top: 60px;
+    margin-left: -227px;
+    height: 454px;
+    height: 66px;
+    font-size: 84px;
+    font-family: 微软雅黑;
+    font-weight: bold;
+    color: #f5fcfc;
+    z-index: -1;
+}
+
+.main>.app>.App>p {
+    width: 744px;
+    height: 56px;
+    font-size: 24px;
+    font-family: 微软雅黑;
+    font-weight: 300;
+    color: rgba(51, 51, 51, 1);
+    line-height: 32px;
+    margin: 40px auto;
+    text-align: center;
+}
+
+
+/*  */
+
+.main>.app>.App>.type {
+    margin: 0 auto;
+    width: 948px;
+    height: 600px;
+}
+
+.main>.app>.App>.type>.type1 {
+    text-align: center;
+    float: left;
+    width: 50%;
+    height: 100%;
+    background: url("../image/product/Apple@2x.png") 50% 100% no-repeat;
+}
+
+.main>.app>.App>.type>.type2 {
+    text-align: center;
+    float: left;
+    width: 50%;
+    height: 100%;
+    background: url("../image/product/android@2x.png") 50% 100% no-repeat;
+}
+
+.main>.app>.App>.type>.type1>p,
+.main>.app>.App>.type>.type2>p {
+    width: 200px;
+    height: 24px;
+    font-size: 24px;
+    font-family: 微软雅黑;
+    font-weight: 500;
+    color: rgba(51, 51, 51, 1);
+    margin: 400px auto 16px auto;
+}
+
+.main>.app>.App>.type>.type1>a,
+.main>.app>.App>.type>.type2>a {
+    position: relative;
+    display: block;
+    margin: 24px auto 0 auto;
+    width: 130px;
+    height: 18x;
+    font-size: 20px;
+    font-family: 微软雅黑;
+    font-weight: 400;
+    color: rgba(61, 178, 163, 1);
+}
+
+.main>.app>.App>.type>.type1>a>span,
+.main>.app>.App>.type>.type2>a>span {
+    position: absolute;
+    left: 26px;
+    top: 0;
+}
+
+.main>.app>.App>.type>.type2>a>img {
+    display: none;
+    position: absolute;
+    right: 0;
+    top: 2px;
+}
+
+.main>.app>.App>.type>.type1>a>img {
+    display: none;
+    position: absolute;
+    right: 0;
+    top: 2px;
+}
+
+
+/* .main>.App>.type>.type2>a:hover {
+    background: url("../image/product/jinru@2x.png") no-repeat 100% 50%;
+}
+
+.main>.App>.type>.type1>a:hover {
+    background: url("../image/product/jinru@2x.png") no-repeat 100% 50%;
+} */
+
+.main>.weixin {
+    width: 100%;
+    height: 856px;
+    background: rgba(247, 252, 252, 1);
+    text-align: center;
+    position: relative;
+}
+
+.main>.weixin>h2 {
+    position: relative;
+    display: block;
+    width: 310px;
+    height: 128px;
+    font-size: 36px;
+    font-family: 微软雅黑;
+    font-weight: bold;
+    color: rgba(26, 26, 26, 1);
+    margin: 0 auto 0 auto;
+    padding-top: 79px;
+    box-sizing: border-box;
+    background: url("../image/product/xiahx11@2x\ \(1\).png") no-repeat 0 113%;
+    background-size: contain;
+}
+
+.main>.weixin>p {
+    width: 744px;
+    height: 56px;
+    font-size: 24px;
+    font-family: 微软雅黑;
+    font-weight: 300;
+    color: rgba(51, 51, 51, 1);
+    line-height: 32px;
+    margin: 40px auto;
+}
+
+.main>.weixin>.class {
+    width: 1220px;
+    height: 484px;
+    margin: 120px auto 0 auto;
+}
+
+.main>.weixin>.class>li {
+    width: 276px;
+    height: 410px;
+    float: left;
+    margin-right: 28px;
+    z-index: 99999;
+    position: relative;
+    box-shadow: 0px 10px 30px 0px rgba(26, 77, 70, 0.06);
+    border-radius: 10px;
+}
+
+.main>.weixin>.class>li:hover a {
+    box-shadow: 0px 4px 10px 0px rgba(144, 240, 169, 0.6);
+}
+
+.main>.weixin>.class>li>img {
+    position: absolute;
+    top: -75px;
+    left: 63px;
+}
+
+.main>.weixin>.class>li:nth-child(1) {
+    background: url("../image/product/wenli11@2x.png"), #FFFFFF;
+}
+
+.main>.weixin>.class>li:nth-child(2) {
+    background: url("../image/product/wenli22@2x.png"), #FFFFFF;
+}
+
+.main>.weixin>.class>li:nth-child(3) {
+    background: url("../image/product/wenli33@2x.png"), #FFFFFF;
+}
+
+.main>.weixin>.class>li:nth-child(4) {
+    background: url("../image/product/wenli44@2x.png"), #FFFFFF;
+}
+
+.main>.weixin>.class>li>h4 {
+    margin: 110px auto 18px auto;
+    width: 160px;
+    height: 24px;
+    font-size: 24px;
+    font-family: 微软雅黑;
+    font-weight: 600;
+    color: rgba(51, 51, 51, 1);
+    text-align: center;
+}
+
+.main>.weixin>.class>li>p {
+    /* width: 110px; */
+    height: 148px;
+    font-size: 20px;
+    font-family: 微软雅黑;
+    font-weight: 300;
+    color: rgba(51, 51, 51, 1);
+    line-height: 32px;
+    text-align: center;
+}
+
+.main>.weixin>.class>li>a {
+    display: block;
+    margin: 40px auto;
+    width: 180px;
+    height: 48px;
+    background: linear-gradient(-8deg, rgba(61, 179, 163, 1) 0%, rgba(145, 230, 115, 1) 100%);
+    border-radius: 24px;
+    text-align: center;
+    color: #fff;
+    line-height: 48px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.main>.weixin>.class>li>a:hover {
+    box-shadow: 0px 4px 10px 0px rgba(144, 240, 169, 0.6);
+}
+
+.main>.website {
+    width: 100%;
+    height: 1237px;
+    background: rgba(247, 252, 252, 1);
+    text-align: center;
+    background: url("../image/product/bjwenli01@2x.png") no-repeat;
+    background-size: 100% 100%;
+    position: relative;
+    padding-top: 80px;
+    box-sizing: border-box;
+}
+
+.main>.movie>h2 {
+    width: 303px;
+    height: 128px;
+    font-size: 36px;
+    font-family: 微软雅黑;
+    font-weight: bold;
+    color: rgba(26, 26, 26, 1);
+    margin: 0 auto 0 auto;
+    background: url("../image/product/xiahx11@2x\ \(1\).png") no-repeat -7px 104%;
+    background-size: contain;
+    padding-top: 70px;
+    box-sizing: border-box;
+    z-index: 9999999;
+    position: relative;
+}
+
+.main>.website>h2 {
+    width: 303px;
+    height: 64px;
+    font-size: 36px;
+    font-family: 微软雅黑;
+    font-weight: bold;
+    color: rgba(26, 26, 26, 1);
+    margin: 0 auto 0 auto;
+    background: url("../image/product/xiahx11@2x\ \(1\).png") no-repeat -3px 94%;
+    background-size: contain;
+    box-sizing: border-box;
+}
+
+.main>.about>h2 {
+    width: 192px;
+    height: 64px;
+    font-size: 36px;
+    font-family: 微软雅黑;
+    font-weight: bold;
+    color: rgba(26, 26, 26, 1);
+    margin: 0 auto 0 auto;
+    background: url("../image/youshihx@2x.png") no-repeat -7px 94%;
+    background-size: contain;
+}
+
+.main>.website>p,
+.main>.movie>p,
+.main>.about>p {
+    width: 744px;
+    height: 56px;
+    font-size: 24px;
+    font-family: 微软雅黑;
+    font-weight: 300;
+    color: rgba(51, 51, 51, 1);
+    line-height: 32px;
+    margin: 34px auto;
+    text-align: center;
+}
+
+@media screen and (min-width: 1500px) {
+    .main>.website>.bigWeb {
+        width: 1470px;
+        height: 880px;
+        margin: 0 auto;
+        background: url("../image/macbook01@2x.png") no-repeat 40% 0;
+        background-size: 100% 100%;
+        padding-top: 30px;
+        box-sizing: border-box;
+    }
+}
+
+@media screen and (max-width: 1500px) {
+    .main>.website>.bigWeb {
+        width: 100%;
+        height: 880px;
+        margin: 0 auto;
+        background: url("../image/macbook01@2x.png") no-repeat 50% 0;
+        background-size: 110% 100%;
+        padding-top: 30px;
+        box-sizing: border-box;
+    }
+}
+
+.main>.website>.bigWeb>.web {
+    width: 1088px;
+    height: 712px;
+    margin: 54px auto 0 auto;
+}
+
+.main>.website>.bigWeb>.web>li {
+    float: left;
+    width: 272px;
+    height: 100%;
+    margin-left: 0;
+}
+
+.main>.website>.bigWeb>.web>li:nth-child(1) {
+    background: url("../image/product/qyimage.png") no-repeat;
+    background-size: contain;
+}
+
+.main>.website>.bigWeb>.web>li:nth-child(2) {
+    background: url("../image/product/ppimage.png") no-repeat;
+    background-size: contain;
+}
+
+.main>.website>.bigWeb>.web>li:nth-child(3) {
+    background: url("../image/product/gwimage.png") no-repeat;
+    background-size: contain;
+}
+
+.main>.website>.bigWeb>.web>li:nth-child(4) {
+    background: url("../image/product/sjimage.png") no-repeat;
+    background-size: contain;
+}
+
+.main>.website>.bigWeb>.web>li>.icon2 {
+    margin: 76px auto 28px auto;
+    width: 96px;
+    height: 96px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 50%;
+}
+
+.main>.website>.bigWeb>.web>li>.icon2>img {
+    text-align: center;
+    line-height: 96px;
+    z-index: 555;
+    margin-top: 20px;
+}
+
+.main>.website>.bigWeb>.web>li>h4 {
+    margin: 0 auto;
+    width: 144px;
+    height: 24px;
+    font-size: 24px;
+    font-family: 微软雅黑;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 1);
+    line-height: 32px;
+}
+
+.main>.website>.bigWeb>.web>li:nth-child(1):hover {
+    background: url("../image/product/zhezhao.png"), url("../image/product/qyimage.png") no-repeat;
+    background-size: contain;
+}
+
+.main>.website>.bigWeb>.web>li:nth-child(2):hover {
+    background: url("../image/product/zhezhao.png"), url("../image/product/ppimage.png") no-repeat;
+    background-size: contain;
+}
+
+.main>.website>.bigWeb>.web>li:nth-child(3):hover {
+    background: url("../image/product/zhezhao.png"), url("../image/product/gwimage.png")no-repeat;
+    background-size: contain;
+}
+
+.main>.website>.bigWeb>.web>li:nth-child(4):hover {
+    background: url("../image/product/zhezhao.png"), url("../image/product/sjimage.png")no-repeat;
+    background-size: contain;
+}
+
+.main>.website>.bigWeb>.web>li>p {
+    text-align: center;
+    width: 220px;
+    height: 308px;
+    font-size: 20px;
+    font-family: 微软雅黑;
+    font-weight: 300;
+    color: rgba(255, 255, 255, 1);
+    line-height: 32px;
+    opacity: 0.7;
+    margin: 30px auto;
+}
+
+.main>.website>.bigWeb>.web>li>a {
+    display: inline-block;
+    width: 180px;
+    height: 48px;
+    background: rgba(0, 0, 0, 0.2);
+    border-radius: 24px;
+    margin: 0 auto;
+    text-align: center;
+    color: #fff;
+    line-height: 48px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.main>.website>.bigWeb>.web>li>a>img {
+    position: relative;
+    top: 5px;
+}
+
+.main>.movie {
+    width: 100%;
+    height: 886px;
+    background: rgba(247, 252, 252, 1);
+    position: relative;
+    box-sizing: border-box;
+}
+
+.main>.movie>.perform {
+    width: 1260px;
+    height: 490px;
+    margin: 52px auto;
+    background: url("../image/yuanmsu@2x.png") no-repeat;
+    background-size: contain;
+}
+
+.main>.movie .left:hover,
+.main>.movie .right:hover,
+.main>.movie img:hover {
+    box-shadow: 0px 4px 10px 0px rgba(144, 240, 169, 0.6);
+}
+
+.main>.movie>.perform>.left {
+    width: 276px;
+    height: 368px;
+    float: left;
+    margin-left: 22px;
+    margin-top: 98px;
+    /* background: url("../image/product/13.jpg") no-repeat; */
+    background-size: contain;
+    overflow: hidden;
+}
+
+.main>.movie>.perform>ul {
+    width: 600px;
+    height: 476px;
+    float: left;
+    margin-top: 24px;
+    margin-left: 32px;
+}
+
+.main>.movie>.perform>ul>li {
+    width: 276px;
+    height: 206px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    float: left;
+    overflow: hidden;
+    margin-top: 2px;
+}
+
+.main>.movie>.perform>ul>li:nth-child(2),
+.main>.movie>.perform>ul>li:nth-child(4) {
+    margin-right: 0;
+}
+
+.main>.movie>.perform>ul>li>.video {
+    width: 276px;
+    height: 206px;
+    position: relative;
+}
+
+.main>.movie>.perform>ul>li>.video>video {
+    object-fit: fill;
+    width: 276px;
+    height: 206px;
+}
+
+.main>.movie>.perform>ul>li>.video>.palse {
+    position: absolute;
+    width: 276px;
+    height: 206px;
+    top: 0;
+    left: 0;
+    text-align: center;
+    background: url("../image/-bofang@2x.png") 50% 50% no-repeat;
+}
+
+.main>.movie>.perform>ul>li>.video:hover .palse {
+    background: url("../image/bofang01@2x.png") 50% 50% no-repeat;
+}
+
+.main>.movie>.perform>.right {
+    width: 276px;
+    height: 368px;
+    float: left;
+    margin-top: 20px;
+    /* background: url("../image/product/24.jpg") no-repeat;
+    background-size: contain; */
+    background-size: contain;
+    overflow: hidden;
+}
+
+.main>.about {
+    width: 100%;
+    height: 850px;
+    background: url("../image/product/bjwenli02@2x.png") no-repeat;
+    background-size: 100% 100%;
+    position: relative;
+    /* z-index: -999; */
+    padding-top: 109px;
+    box-sizing: border-box;
+}
+
+.main>.about>ul {
+    width: 1168px;
+    height: 488px;
+    margin: 48px auto;
+}
+
+.main>.about>ul>li {
+    width: 50%;
+    height: 50%;
+    float: left;
+    margin-top: 32px;
+    background: rgba(247, 252, 252, 1);
+}
+
+.main>.about>ul>li:nth-child(1)>.tp {
+    float: left;
+    text-align: center;
+    width: 266px;
+    height: 244px;
+    background: url("../image/product/tuandui.png") no-repeat;
+    background-size: contain;
+}
+
+.main>.about>ul>li:nth-child(2)>.tp {
+    float: left;
+    text-align: center;
+    width: 266px;
+    height: 244px;
+    background: url("../image/product/liucheng.png") no-repeat;
+    background-size: contain;
+}
+
+.main>.about>ul>li:nth-child(3)>.tp {
+    float: right;
+    text-align: center;
+    width: 266px;
+    height: 244px;
+    background: url("../image/product/ziyuan.png") no-repeat;
+    background-size: contain;
+}
+
+.main>.about>ul>li:nth-child(4)>.tp {
+    float: right;
+    text-align: center;
+    width: 266px;
+    height: 244px;
+    background: url("../image/product/fuwu.png") no-repeat;
+    background-size: contain;
+}
+
+.main>.about>ul>li>.tp>img {
+    margin-top: 80px;
+}
+
+.main>.about>ul>li>.tp:hover {
+    box-shadow: 0px 4px 10px 0px rgba(198, 243, 210, 0.6);
+}
+
+.main>.about>ul>li>.wz {
+    width: 300px;
+    height: 244px;
+    background: rgba(247, 252, 252, 1);
+    float: left;
+}
+
+.main>.about>ul>li>.wz>h3 {
+    margin-top: 42px;
+    margin-left: 28px;
+    width: 120px;
+    height: 24px;
+    font-size: 24px;
+    font-family: 微软雅黑;
+    font-weight: 400;
+    color: rgba(51, 51, 51, 1);
+    line-height: 32px;
+}
+
+.main>.about>ul>li>.wz>p {
+    margin-top: 24px;
+    margin-left: 28px;
+    width: 262px;
+    height: 84px;
+    font-size: 20px;
+    font-family: 微软雅黑;
+    font-weight: 300;
+    color: rgba(51, 51, 51, 1);
+    line-height: 32px;
+}
+
+.foot1 {
+    width: 100%;
+    height: 410px;
+    position: relative;
+    background: #fff;
+    border-top: 1px solid rgba(242, 242, 242, 1);
+}
+
+.foot {
+    width: 1200px;
+    height: 310px;
+    position: relative;
+    margin: 0 auto;
+    background: #fff;
+}
+
+.foot>.list {
+    width: 300px;
+    height: 200px;
+    position: absolute;
+    top: 140px;
+}
+
+.foot>ul>li {
+    float: left;
+    margin-left: 44px;
+    line-height: 40px;
+}
+
+.foot>ul>li:nth-child(2) {
+    margin-left: 74px;
+}
+
+.foot>ul>li>a {
+    width: 66px;
+    height: 16px;
+    font-size: 16px;
+    font-family: 微软雅黑;
+    font-weight: 400;
+    color: rgba(51, 51, 51, 1);
+    text-decoration: none;
+}
+
+.foot>.erweima {
+    position: absolute;
+    width: 194px;
+    height: 194px;
+    left: 500px;
+    top: 60px;
+}
+
+.foot>.erweima img {
+    width: 194px;
+    height: 194px;
+}
+
+.foot>.impor {
+    position: absolute;
+    width: 416px;
+    height: 180px;
+    right: 0px;
+    top: 100px;
+}
+
+.foot>.impor>.hcom {
+    width: 248px;
+    height: 48px;
+    background: url("../image/yuandian@2x.png") no-repeat;
+}
+
+.foot>.impor>.hcom>h3 {
+    width: 228px;
+    height: 48px;
+    font-size: 36px;
+    font-family: 微软雅黑;
+    font-weight: 400;
+    margin-left: 20px;
+    font-style: italic;
+    color: rgba(51, 51, 51, 1);
+}
+
+.foot>.impor>.icon {
+    position: absolute;
+    top: 0px;
+    left: -12px;
+    width: 82px;
+    height: 56px;
+    background: linear-gradient(-8deg, rgba(61, 179, 163, 1) 0%, rgba(145, 230, 115, 1) 100%);
+    opacity: 0.36;
+    border-radius: 50%;
+}
+
+.foot>.impor>.a1 {
+    margin-top: 30px;
+    display: inline-block;
+    width: 180px;
+    height: 70px;
+    background: url("../image/androidbq01@2x.png") no-repeat 100%;
+    background-size: contain;
+    border-radius: 10px;
+    text-align: center;
+    color: #fff;
+    line-height: 70px;
+}
+
+.foot>.impor>.a2 {
+    margin-top: 30px;
+    display: inline-block;
+    width: 180px;
+    height: 70px;
+    background: url("../image/iosbq01@2x.png") no-repeat 100%;
+    background-size: contain;
+    border-radius: 10px;
+    text-align: center;
+    color: #fff;
+    line-height: 70px;
+    margin-left: 9px;
+}
+
+.foot1 .final {
+    width: 100%;
+    height: 100px;
+    position: absolute;
+    background: rgba(247, 247, 247, 1);
+}
+
+.foot1 p {
+    /* width: 545px; */
+    height: 16px;
+    font-size: 14px;
+    font-family: 微软雅黑;
+    font-weight: 400;
+    color: rgba(153, 153, 153, 1);
+    text-align: center;
+    /* line-height: 33px; */
+    margin-top: 20px;
+    margin-left: 40px;
+}

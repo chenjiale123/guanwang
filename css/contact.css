@@ -1,0 +1,461 @@
+html {
+    overflow-x: auto;
+    overflow-y: scroll;
+}
+
+a {
+    text-decoration: none;
+}
+
+body,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+pre,
+form,
+fieldset,
+input,
+p,
+blockquote,
+th,
+td {
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h4,
+h5 {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #FFFFFF;
+    color: #666666;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    text-align: left;
+}
+
+select {
+    font-size: 12px;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+fieldset,
+img {
+    border: 0 none;
+}
+
+fieldset {
+    margin: 0;
+    padding: 0;
+}
+
+fieldset p {
+    margin: 0;
+    padding: 0 0 0 8px;
+}
+
+legend {
+    display: none;
+}
+
+address,
+caption,
+em,
+strong,
+th,
+i {
+    font-style: normal;
+    font-weight: 400;
+}
+
+table caption {
+    margin-left: -1px;
+}
+
+hr {
+    border-bottom: 1px solid #FFFFFF;
+    border-top: 1px solid #E4E4E4;
+    border-width: 1px 0;
+    clear: both;
+    height: 2px;
+    margin: 5px 0;
+    overflow: hidden;
+}
+
+ol,
+ul {
+    list-style-image: none;
+    list-style-position: outside;
+    list-style-type: none;
+}
+
+caption,
+th {
+    text-align: left;
+}
+
+q:before,
+q:after,
+blockquote:before,
+blockquote:after {
+    content: ””;
+}
+
+#contain {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    min-width: 1200px;
+    position: relative;
+    background: rgba(247, 247, 247, 1);
+}
+
+.header {
+    width: 100%;
+    height: 96px;
+    background: rgba(255, 255, 255, 1);
+    box-shadow: 0px 2px 8px 0px rgba(4, 0, 0, 0.06);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999999999999;
+}
+
+.logo {
+    width: 184px;
+    height: 56px;
+    float: left;
+    margin: 24px 0 0 100px;
+}
+
+.logo>img {
+    width: 184px;
+    height: 56px;
+}
+
+.right {
+    width: 760px;
+    height: 27px;
+    float: right;
+    margin-top: 27px;
+}
+
+.right>li {
+    margin-left: 50px;
+    float: left;
+}
+
+.right>li:hover {
+    border-bottom: 2px solid rgba(61, 178, 163, 1);
+    border-radius: 2px;
+}
+
+.right>li:first-child {
+    margin-left: 0px;
+}
+
+.right>li:nth-child(6) {
+    border-bottom: 2px solid rgba(61, 178, 163, 1);
+    border-radius: 2px;
+}
+
+.right>li:nth-child(6) a {
+    color: rgba(61, 178, 163, 1);
+}
+
+.right>li>a {
+    display: inline-block;
+    text-align: center;
+    margin-top: 6px;
+    font-family: 微软雅黑;
+    font-weight: 400;
+    color: rgb(0, 0, 0);
+    margin-bottom: 12px;
+    font-size: 18px;
+}
+
+.map {
+    width: 100%;
+    height: 600px;
+    position: relative;
+    margin-top: 96px;
+}
+
+.map>.active {
+    display: none;
+}
+
+.map>.active:nth-of-type(1) {
+    display: block;
+}
+
+.map>div>img {
+    width: 100%;
+    height: 600px;
+}
+
+.contact {
+    width: 100%;
+    height: 800px;
+    margin: 0 auto 0 auto;
+    background: rgba(247, 247, 247, 1);
+    padding-top: 80px;
+    box-sizing: border-box;
+}
+
+.contact>h3 {
+    width: 154px;
+    height: 54px;
+    font-size: 36px;
+    font-family: 微软雅黑;
+    font-weight: bold;
+    color: rgba(26, 26, 26, 1);
+    margin: 0 auto 0 auto;
+    background: url("../image/youshihx@2x.png") no-repeat -7px 111%;
+    background-size: contain;
+}
+
+.contact>.main {
+    width: 1220px;
+    height: 530px;
+    margin: 60px auto 0 auto;
+}
+
+.contact>.main>.left {
+    width: 280px;
+    height: 100%;
+    float: left;
+    margin-left: 150px;
+}
+
+.contact>.main>.left>ul>li {
+    width: 100%;
+    height: 68px;
+    text-align: center;
+    margin-top: 20px;
+    background: #fff;
+}
+
+.contact>.main>.left>ul>li:hover {
+    margin-left: 50px;
+    background: rgba(61, 178, 163, 1);
+    transition-duration: 1s;
+}
+
+.contact>.main>.left>ul>.ho {
+    margin-left: 50px;
+    background: rgba(61, 178, 163, 1);
+}
+
+.contact>.main>.left>ul>.ho p {
+    color: #FFFFFF;
+    line-height: 58px;
+}
+
+.contact>.main>.left>ul>li:hover p {
+    color: #FFFFFF;
+    line-height: 58px;
+}
+
+.contact>.main>.left>ul>li>p {
+    margin: 0 auto;
+    width: 244px;
+    height: 58px;
+    font-size: 30px;
+    font-family: 微软雅黑;
+    font-weight: 400;
+    color: rgba(51, 51, 51, 1);
+    text-align: center;
+    line-height: 58px;
+}
+
+.contact>.main>.right {
+    width: 721px;
+    height: 510px;
+    margin-top: 20px;
+    position: relative;
+    background: #fff;
+    margin-left: 56px;
+}
+
+.contact>.main>.right>div {
+    width: 750px;
+    height: 100%;
+    margin-top: 0;
+    display: none;
+}
+
+.contact>.main>.right>.active {
+    width: 750px;
+    height: 100%;
+    margin-top: 0;
+    display: block;
+}
+
+.contact>.main>.right p {
+    width: 520px;
+    height: 31px;
+    font-size: 30px;
+    font-family: 微软雅黑;
+    font-weight: 400;
+    color: rgba(51, 51, 51, 1);
+    margin-left: 60px;
+    margin-top: 57px;
+}
+
+.contact>.main>.right .etc {
+    margin-top: 100px;
+}
+
+.foot1 {
+    width: 100%;
+    height: 410px;
+    position: relative;
+    background: #fff;
+    border-top: 1px solid rgba(242, 242, 242, 1);
+}
+
+.foot {
+    width: 1200px;
+    height: 310px;
+    position: relative;
+    margin: 0 auto;
+    background: #fff;
+}
+
+.foot>.list {
+    width: 300px;
+    height: 200px;
+    position: absolute;
+    top: 140px;
+}
+
+.foot>ul>li {
+    float: left;
+    margin-left: 44px;
+    line-height: 40px;
+}
+
+.foot>ul>li:nth-child(2) {
+    margin-left: 74px;
+}
+
+.foot>ul>li>a {
+    width: 66px;
+    height: 16px;
+    font-size: 16px;
+    font-family: 微软雅黑;
+    font-weight: 400;
+    color: rgba(51, 51, 51, 1);
+    text-decoration: none;
+}
+
+.foot>.erweima {
+    position: absolute;
+    width: 194px;
+    height: 194px;
+    left: 500px;
+    top: 60px;
+}
+
+.foot>.erweima img {
+    width: 194px;
+    height: 194px;
+}
+
+.foot>.impor {
+    position: absolute;
+    width: 416px;
+    height: 180px;
+    right: 0px;
+    top: 100px;
+}
+
+.foot>.impor>.hcom {
+    width: 248px;
+    height: 48px;
+    background: url("../image/yuandian@2x.png") no-repeat;
+}
+
+.foot>.impor>.hcom>h3 {
+    width: 228px;
+    height: 48px;
+    font-size: 36px;
+    font-family: 微软雅黑;
+    font-weight: 400;
+    margin-left: 20px;
+    font-style: italic;
+    color: rgba(51, 51, 51, 1);
+}
+
+.foot>.impor>.icon {
+    position: absolute;
+    top: 0px;
+    left: -12px;
+    width: 82px;
+    height: 56px;
+    background: linear-gradient(-8deg, rgba(61, 179, 163, 1) 0%, rgba(145, 230, 115, 1) 100%);
+    opacity: 0.36;
+    border-radius: 50%;
+}
+
+.foot>.impor>.a1 {
+    margin-top: 30px;
+    display: inline-block;
+    width: 180px;
+    height: 70px;
+    background: url("../image/androidbq01@2x.png") no-repeat 100%;
+    background-size: contain;
+    border-radius: 10px;
+    text-align: center;
+    color: #fff;
+    line-height: 70px;
+}
+
+.foot>.impor>.a2 {
+    margin-top: 30px;
+    display: inline-block;
+    width: 180px;
+    height: 70px;
+    background: url("../image/iosbq01@2x.png") no-repeat 100%;
+    background-size: contain;
+    border-radius: 10px;
+    text-align: center;
+    color: #fff;
+    line-height: 70px;
+    margin-left: 9px;
+}
+
+.foot1 .final {
+    width: 100%;
+    height: 100px;
+    position: absolute;
+    background: rgba(247, 247, 247, 1);
+}
+
+.foot1 p {
+    /* width: 545px; */
+    height: 16px;
+    font-size: 14px;
+    font-family: 微软雅黑;
+    font-weight: 400;
+    color: rgba(153, 153, 153, 1);
+    text-align: center;
+    /* line-height: 33px; */
+    margin-top: 20px;
+    margin-left: 40px;
+}
